@@ -1,0 +1,19 @@
+# We will install torch and torchaudio separately
+# --index-url https://download.pytorch.org/whl/cu118
+
+git+https://github.com/openai/whisper.git
+faster-whisper
+transformers
+sentencepiece
+resemblyzer
+TTS
+sounddevice
+soundfile
+librosa
+pyworld
+gradio
+fastapi
+uvicorn
+websockets
+python-multipart
+onnxruntime-gpu
